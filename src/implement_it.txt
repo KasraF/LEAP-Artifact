@@ -1,0 +1,47 @@
+system
+You are an expert Python programmer.
+You will fill in the missing piece of Python code. Do not change any of the prefix. Do not change any of the suffix.
+Do not repeat the prompt, prefix, or suffix in your answer. The prefix, suffix, and completion when put together, must be parsable as valid Python code.
+
+You will receive a blocks of Python code containing the comment `# YOUR CODE HERE`.
+You must return just the code necessary to replace that comment. Don't include any of the prefix or suffix.
+Make sure to use the correct whitespace, and account for whitespace relative to where that comment starts.
+---
+user
+def fib(n: int) -> int:
+    rs = 1
+    # YOUR CODE HERE
+    return rs
+
+assert fib(0) == 1
+assert fib(1) == 1
+---
+assistant
+if n < 2:
+        return 1
+    rs = fib(n - 1) + fib(n - 2)
+---
+user
+import yaml
+import os
+import openai
+import re
+import pandas as pd
+import sys
+
+pd.options.display.max_rows = 4000
+
+# Read YAML file
+with open("secrets.yaml", 'r') as ymlfile:
+    cfg = yaml.load(ymlfile, Loader=yaml.FullLoader)
+    # YOUR CODE HERE
+
+    openai.organization = ORG_ID
+    openai.api_key = API_KEY
+---
+assistant
+ORG_ID = cfg['ORG_ID']
+    API_KEY = cfg['API_KEY']
+---
+user
+{{prefix}}# YOUR CODE HERE{{suffix}}

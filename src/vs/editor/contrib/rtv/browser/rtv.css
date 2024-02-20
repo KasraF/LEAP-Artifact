@@ -1,0 +1,18 @@
+/*---------------------------------------------------------------------------------------------
+ *  Copyright (c) Microsoft Corporation. All rights reserved.
+ *  Licensed under the MIT License. See License.txt in the project root for license information.
+ *--------------------------------------------------------------------------------------------*/
+
+.monaco-editor .rtv-code-fade {
+	color: #505050;
+	/*color: #D0D0D0;*/
+}
+
+.monaco-editor .code-suggestion-opacity {
+	opacity: 0.6;
+}
+
+.monaco-editor .code-suggestion-bgcolor {
+	background-color: #2e3c2f;
+	opacity: 0.6;
+}
