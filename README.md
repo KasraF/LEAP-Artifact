@@ -19,11 +19,13 @@ To build LEAP, you need to first install the following:
 
 1. [Node.js 16](https://nodejs.org/en/about/previous-releases)
 2. [Python 3.8](https://www.python.org/downloads/) or above
+3. The [`numpy`](https://pypi.org/project/numpy/) Python package
+4. The [`matplotlib`](https://pypi.org/project/matplotlib/) Python package
 3. [npm](https://nodejs.org/en/download/package-manager)
 4. [yarn](https://classic.yarnpkg.com/en/)
 5. An [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication) to use for generating completions.
 
-Once you satisfy the requierments please follow the next steps to setup your environment.
+Once you satisfy the requirements please follow the next steps to setup your environment.
 
 ## How to Build
 
@@ -51,7 +53,7 @@ LEAP depends on a number of environment variables that must be present and set c
 1. `PYTHON3`: Absolute path to the Python 3 executable.
 2. `RUNPY`: Absolute path to the `./src/run.py` file.
 3. `IMGSUM`: Absolute path to the `./src/img-summary.py` file.
-4. `LEAP_PROMPT`: Absolyte path to the `./src/implement_it.txt` file.
+4. `LEAP_PROMPT`: Absolute path to the `./src/implement_it.txt` file.
 5. `OPENAI_API_KEY`: Your OpenAI API key.
 
 How you set these variables is up to you (e.g. you could set them globally) but here we include instructions for setting them for running from the terminal, and from VSCode.
