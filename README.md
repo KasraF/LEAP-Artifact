@@ -12,7 +12,7 @@ LEAP (**L**ive **E**xploration of **A**I-Generated **P**rograms) combines [Proje
 
 LEAP (similar to Projection Boxes) uses a modified version of [Visual Studio Code](https://github.com/microsoft/vscode), including Projeciton Boxes and LEAP as separate _contributions_ in the editor. For code generation, it uses [OpenAI's _Completion_ API](https://platform.openai.com/docs/api-reference/completions).
 
-For any questions, please reach out to the authors of the paper [Kasra Ferdowsi](mailto:kferdows@ucsd.edu) and [Ruanqianqian (Lisa) Huang](mailto:r6huang@ucsd.edu).
+For any questions, please reach out to the authors of the paper [Kasra Ferdowsi](mailto:kferdows@ucsd.edu) and [Ruanqianqian (Lisa) Huang](mailto:r6huang@ucsd.edu), or create an issue [on GitHub](https://github.com/KasraF/LEAP-Artifact).
 
 ## Prerequisites
 To build LEAP, you need to first install the following:
