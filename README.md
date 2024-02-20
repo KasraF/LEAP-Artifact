@@ -8,7 +8,7 @@
 4. [How to Use](#how-to-use)
 
 ## About
-LEAP (**L**ive **E**xploration of **A**I-Generated **P**rograms) combines [Projection Boxes](https://dl.acm.org/doi/10.1145/3313831.3376494) with a Copilot-like tool that generates code completions within the current buffer.
+LEAP (**L**ive **E**xploration of **A**I-Generated **P**rograms) combines [Projection Boxes](https://dl.acm.org/doi/10.1145/3313831.3376494) with a Copilot-like tool that generates code completions within the current buffer. You can find an up-to-date version of this artifact [on GitHub](https://github.com/KasraF/LEAP-Artifact).
 
 LEAP (similar to Projection Boxes) uses a modified version of [Visual Studio Code](https://github.com/microsoft/vscode), including Projeciton Boxes and LEAP as separate _contributions_ in the editor. For code generation, it uses [OpenAI's _Completion_ API](https://platform.openai.com/docs/api-reference/completions).
 
