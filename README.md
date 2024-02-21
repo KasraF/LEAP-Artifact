@@ -17,13 +17,12 @@ For any questions, please reach out to the authors of the paper [Kasra Ferdowsi]
 ## Prerequisites
 To build LEAP, you need to first install the following:
 
-1. [Node.js 16](https://nodejs.org/en/about/previous-releases)
+1. [Node.js 16](https://nodejs.org/en/about/previous-releases) TODO check version
 2. [Python 3.8](https://www.python.org/downloads/) or above
 3. The [`numpy`](https://pypi.org/project/numpy/) Python package
 4. The [`matplotlib`](https://pypi.org/project/matplotlib/) Python package
-3. [npm](https://nodejs.org/en/download/package-manager)
-4. [yarn](https://classic.yarnpkg.com/en/)
-5. An [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication) to use for generating completions.
+5. [yarn 1.22.x](https://classic.yarnpkg.com/en/) TODO check version
+6. An [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication) to use for generating completions.
 
 Once you satisfy the requirements please follow the next steps to setup your environment.
 
@@ -59,9 +58,9 @@ LEAP depends on a number of environment variables that must be present and set c
 How you set these variables is up to you (e.g. you could set them globally) but here we include instructions for setting them for running from the terminal, and from VSCode.
 
 ### Running from the terminal
-We have provided a shell script for running LEAP in `./run.py`. First edit the script in a text editor and replace `OPENAI API KEY HERE` with your OpenAI API key. The other env vars should be set automatically, but if you run into issues, you may want to hard code them in this script as well.
+We have provided a shell script for running LEAP in `./run.sh`. First edit the script in a text editor and replace `OPENAI API KEY HERE` with your OpenAI API key. The other env vars should be set automatically, but if you run into issues, you may want to hard code them in this script as well.
 
-After editing this file, save and close and run it with `./run.py`. Note that you must [build](#how-to-build) LEAP _before_ running this script, otherwise you will run into errors.
+After editing this file, save and close and run it with `./run.sh`. Note that you must [build](#how-to-build) LEAP _before_ running this script, otherwise you will run into errors.
 
 ### Running from VSCode
 To run LEAP directly from VSCode:
