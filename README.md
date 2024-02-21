@@ -17,11 +17,11 @@ For any questions, please reach out to the authors of the paper [Kasra Ferdowsi]
 ## Prerequisites
 To build LEAP, you need to first install the following:
 
-1. [Node.js 16](https://nodejs.org/en/about/previous-releases) TODO check version
+1. [Node.js 16](https://nodejs.org/en/about/previous-releases)
 2. [Python 3.8](https://www.python.org/downloads/) or above
 3. The [`numpy`](https://pypi.org/project/numpy/) Python package
 4. The [`matplotlib`](https://pypi.org/project/matplotlib/) Python package
-5. [yarn 1.22.x](https://classic.yarnpkg.com/en/) TODO check version
+5. [yarn 1.22.x](https://classic.yarnpkg.com/en/)
 6. An [OpenAI API key](https://platform.openai.com/docs/api-reference/authentication) to use for generating completions.
 
 Once you satisfy the requirements please follow the next steps to setup your environment.
